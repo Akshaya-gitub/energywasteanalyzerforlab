@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from utils.calculations import calculate_energy
+from calculations import calculate_energy
 
 st.set_page_config(
     page_title="Energy Waste Analyzer",
